@@ -1,0 +1,44 @@
+html, body {
+  margin: 10px;
+  padding: 0px;
+  background-color: wheat;
+}
+canvas {
+  display: block;
+}
+
+#new-box{
+
+  position: relative;
+  font-style: italic;
+  color: cadetblue;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#my-container {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.desc{
+
+  background-color: cadetblue;
+  width: 90px;
+  height: 410px;
+  margin: -15px;
+  position: sticky;
+  
+}
+
+.title{
+  color: aliceblue;
+  text-align: center;
+  font-weight: lighter;
+  font-family: Helvetica;
+}
+
+.desc:hover{
+  background-color: saddlebrown;
+}
